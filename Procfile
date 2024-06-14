@@ -1,0 +1,1 @@
+web: gunicorn devsearch wssi --log-file -
