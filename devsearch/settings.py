@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','salem-devsearch.up.railway.app',]
+ALLOWED_HOSTS = ['localhost','127.0.0.1','salem-devsearch.up.railway.app','*']
 CSRF_TRUSTED_ORIGINS = ['https://salem-devsearch.up.railway.app']
 
 # Application definition
